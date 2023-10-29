@@ -1,5 +1,5 @@
-let playerMove = 'papier';
-let computerMove = 'kamień';
+
+
 
 function printMessage(msg) {
     let div = document.createElement('div');
@@ -10,6 +10,7 @@ function printMessage(msg) {
 function clearMessages() {
     document.getElementById('messages').innerHTML = '';
 }
+let computerMove = `kamień`;
+let PlayerMove = `papier`
 
-
-printMessage('Zagrałem ' + computerMove + '! Jeśli Twój ruch to papier, to wygrywasz!');
+printMessage ('Zagrałem ' + computerMove + '! Jeśli Twój ruch to papier, to wygrywasz!');
