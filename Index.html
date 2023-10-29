@@ -4,13 +4,15 @@
 	<meta charset="UTF-8">
 	<title>Kamień, papier, nożyce</title>
 	<link rel="stylesheet" href="css/style.css">
-</head>command:workbench.trust.manage
+</head>
 <body>
 	<div class="container">
-		<div id="buttons"></div>
+		<div id="buttons"> <button onclick="playerChoice('rock')">Kamień</button>
+            <button onclick="playerChoice('paper')">Papier</button>
+            <button onclick="playerChoice('scissors')">Nożyce</button></div>
 		<div id="messages"></div>
 	</div>
-	<script src="functions.js"></script>
-	<script src="script.js"></script>
+	<script src="js/functions.js"></script>
+	<script src="js/script.js"></script>
 </body>
 </html>

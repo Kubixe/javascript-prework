@@ -1,12 +1,15 @@
 let playerMove = 'papier';
-let computerMove = `kamień`;
-function printMessage('Zagrałem ' + computerMove + '! Jeśli Twój ruch to papier, to wygrywasz!')
-{
-	let div = document.createElement('div');
-	div.innerHTML = msg;
-	document.getElementById('messages').appendChild(div);
+let computerMove = 'kamień';
+
+function printMessage(msg) {
+    let div = document.createElement('div');
+    div.innerHTML = msg;
+    document.getElementById('messages').appendChild(div);
 }
 
-function clearMessages(){
-	document.getElementById('messages').innerHTML = '';
+function clearMessages() {
+    document.getElementById('messages').innerHTML = '';
 }
+
+
+printMessage('Zagrałem ' + computerMove + '! Jeśli Twój ruch to papier, to wygrywasz!');
